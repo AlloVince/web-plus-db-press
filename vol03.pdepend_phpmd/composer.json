@@ -1,0 +1,15 @@
+{
+    "require":{
+        "pdepend/pdepend": "2.0.*",
+        "phpmd/phpmd": "2.2.*",
+        "phpunit/phpunit": "4.5.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
