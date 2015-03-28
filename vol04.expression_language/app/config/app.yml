@@ -1,0 +1,17 @@
+acme_demo:
+    business_hours:
+        早:
+            span: |
+                time >= '05:00'
+                and
+                time < '12:00'
+        中:
+            span: |
+                time >= '12:00'
+                and
+                time < '18:00'
+        晚:
+            span: |
+                time >= '18:00'
+                or
+                time < '05:00'

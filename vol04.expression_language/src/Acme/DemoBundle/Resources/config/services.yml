@@ -1,0 +1,3 @@
+services:
+    acme_demo.service.business_hour:
+        class: Acme\DemoBundle\Domain\BusinessHourService
